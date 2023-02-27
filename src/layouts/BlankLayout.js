@@ -5,7 +5,7 @@ import { Stack } from "@mui/material";
 function BlankLayout() {
   return (
     <Stack minHeight="100vh" justifyContent="center" alignItems="center">
-      <Logo sx={{ width: 90, height: 90, mb: 5 }} />
+      <Logo sx={{ width: 200, height: 200, mb: 5 }} />
 
       <Outlet />
     </Stack>

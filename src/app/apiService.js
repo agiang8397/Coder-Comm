@@ -1,9 +1,9 @@
 import axios from "axios";
-// import { BASE_URL } from "./config";
+import { BASE_URL } from "./config";
 
 const apiService = axios.create({
-  // baseURL: BASE_URL,
-  baseURL: "https://codercomm-api-dot-cs-platform-306304.et.r.appspot.com/api",
+  baseURL: BASE_URL,
+  // baseURL: "https://codercomm-api-dot-cs-platform-306304.et.r.appspot.com/api",
 });
 
 apiService.interceptors.request.use(

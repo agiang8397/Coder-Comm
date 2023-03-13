@@ -25,8 +25,8 @@ const LoginSchema = Yup.object().shape({
 });
 
 const defaultValues = {
-  email: "",
-  password: "",
+  email: "mia@gmail.com",
+  password: "123",
   remember: true,
 };
 
